@@ -63,6 +63,16 @@ csd/
 ├── models/            # Saved model weights (not tracked by git)
 └── logs/              # Training plots and history
 ```
+## Pretrained Model
+
+The trained model weights (`models/csd_model.pt`) are stored via Git LFS.
+They are downloaded automatically when you clone the repo:
+
+git clone https://github.com/YOUR_USERNAME/csd.git
+
+No retraining needed — run inference immediately after cloning:
+
+python src/inference.py
 
 ## Domain Classes
 `politics` · `entertainment` · `technology` · `sports` · `lifestyle` · `humor` · `general`
