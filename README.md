@@ -42,11 +42,9 @@ python src/inference.py
 ## Results
 | Metric | Score |
 |--------|-------|
-| Accuracy | — |
-| F1 Score | — |
-| AUC | — |
-
-*(Fill in after training)*
+| Accuracy | 0.7715 |
+| F1 Score | 0.7715 |
+| AUC | 0.86 |
 
 ## Project Structure
 ```
