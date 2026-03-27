@@ -2,8 +2,8 @@
 data/raw/
 data/processed/
 
-# Trained model weights — too large for GitHub
-models/
+# Keep tokenizer folder out — it's auto-downloaded by HuggingFace anyway
+models/tokenizer/
 
 # Python cache — auto-generated, not needed
 __pycache__/
