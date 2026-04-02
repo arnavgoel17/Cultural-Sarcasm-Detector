@@ -66,7 +66,7 @@ csd/
 The trained model weights (`models/csd_model.pt`) are stored via Git LFS.
 They are downloaded automatically when you clone the repo:
 
-git clone https://github.com/YOUR_USERNAME/csd.git
+git clone https://github.com/arnavgoel17/Cultural-Sarcasm-Detector.git
 
 No retraining needed — run inference immediately after cloning:
 
