@@ -41,11 +41,4 @@ DEVICE = "cuda"
 TRAIN_SPLIT = 0.85  # 85% for training
 VAL_SPLIT   = 0.10  # 10% for validation
 TEST_SPLIT  = 0.05  # 5% for testing
-
-# ─────────────────────────────────────────────
-# RANDOM SEED — for reproducibility
-# ─────────────────────────────────────────────
 SEED = 42
-# Setting a fixed seed means: if you run training twice,
-# you get the exact same random shuffles, same splits, same results
-# Without this, every run gives slightly different results — embarrassing in demos
